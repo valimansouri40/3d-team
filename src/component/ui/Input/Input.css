@@ -1,0 +1,67 @@
+.Input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+
+.Label {
+    /* font-weight: bold; */
+    display: block;
+    margin-bottom: 8px;
+}
+
+.InputElement {
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: white;
+    
+    padding: 6px 10px;
+    display: block;
+    width: 70%;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.InputElement:focus {
+    outline: none;
+    background-color: #ccc;
+}
+
+.Invalid {
+    border-radius: 5px;
+    outline: none;
+    font: inherit;
+    padding: 6px 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid red;
+    background-color: #FDA49A;
+}
+.star{
+    color: red;
+    margin-right: .3rem;
+}
+
+.category{
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: white;
+    font: inherit;
+    padding: 6px 10px;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+}
+
+.category-one{
+    margin:  7px ;
+}
+.category-label{
+    margin-left: 8px;
+    font-size: .8rem;
+}

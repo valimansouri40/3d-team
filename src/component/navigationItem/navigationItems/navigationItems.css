@@ -1,0 +1,37 @@
+.item-block{
+    width: 100%;
+   
+    
+}
+
+.item-label{
+    margin-left: 2rem;
+    color: rgb(154, 154, 155);
+    font-size: .6rem;
+}
+
+.item-li{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: .5rem;
+    padding-left: 2rem;
+    
+}
+
+
+.item-navlink {
+    margin-left: 1rem;
+    text-decoration: none;
+    font-size: .8rem;
+    color: rgb(46, 45, 44);
+    font-weight: 500;
+}
+.item-li-active{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: .5rem;
+    padding-left: 2rem;
+    background: rgba(105, 105, 209, 0.788);
+}

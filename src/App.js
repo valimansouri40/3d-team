@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+
 import './App.css';
+import UploadPage from './container/UploadPage/UploadPage';
+import { Route ,Switch} from 'react-router-dom';
+import NewServiceProvider from './container/NewServiceProvider/NewServiceProvider';
+import ServiceProviders from './container/ServiceProviders/ServiceProviders';
+import Layout from './component/Layout/Layout';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Switch>
+      
+      <Route  path="/NewServiceProvider"   component={NewServiceProvider}/>
+        <Route  path="/ServiceProviders"   component={ServiceProviders}/>
+        <Route  path="/" exact  component={UploadPage}/>
+        <Route path="*"  component={Layout}/>
+      </Switch>
     </div>
   );
 }

@@ -1,0 +1,27 @@
+.nsp-target{
+    margin-top: 1rem;
+    width: 97%;
+    min-height: 94vh;
+    background: #fff;
+    margin-bottom: 2rem;
+    padding: 2rem 0;
+}
+.nsp-head{
+    border-bottom: 1px solid rgb(181, 175, 175);
+}
+.submit{
+    padding: .5rem 1rem;
+    background: rgb(41, 41, 164);
+    color: #fff;
+    outline: none;
+    border: none;
+}
+.nsp-head-h2{
+    padding: .5rem;
+    font-size: 1.3rem;
+}
+.nsp-head-span{
+    font-size: .8rem;
+    color: rgb(165, 167, 168);
+    padding: .5rem;
+}

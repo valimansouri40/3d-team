@@ -1,0 +1,26 @@
+.nav-box{
+
+    width: 20%;
+    height: 94vh;
+   
+    position: relative;
+    top: 3rem;
+}
+.nav-target{
+    width: 20%;
+    height: 100%;
+    box-shadow: 0 .2rem .4rem #111;
+    background: #fff;
+    position: fixed;
+    top: 3rem;
+}
+.nav-ul{
+    width: 100%;
+    
+    margin-bottom: .7rem;
+   
+}
+
+.nav-ul:first-child{
+    margin-top: 1rem;
+}
